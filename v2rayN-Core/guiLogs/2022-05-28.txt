@@ -1,0 +1,30 @@
+2022-05-28 10:34:55,434 [1] INFO  Log1 - v2rayN start up | v2rayN - V5.23 - 2022-05-06 | C:\Users\86158\Desktop\v2rayN-Core\v2rayN.exe
+2022-05-28 10:34:55,630 [1] DEBUG Log2 - 未能找到文件“C:\Users\86158\Desktop\v2rayN-Core\guiNConfig.json”。
+2022-05-28 10:34:55,630 [1] DEBUG Log2 - System.IO.FileNotFoundException: 未能找到文件“C:\Users\86158\Desktop\v2rayN-Core\guiNConfig.json”。
+文件名:“C:\Users\86158\Desktop\v2rayN-Core\guiNConfig.json”
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   在 System.IO.StreamReader..ctor(String path)
+   在 v2rayN.Utils.LoadResource(String res)
+2022-05-28 10:35:55,919 [4] INFO  Log1 - UpdateTaskRun
+2022-05-28 10:37:04,454 [3] DEBUG Log2 - 无法连接到远程服务器
+2022-05-28 10:37:04,454 [3] DEBUG Log2 - System.Net.WebException: 无法连接到远程服务器 ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:10809
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 v2rayN.Handler.DownloadHandle.GetRealPingTime(String url, WebProxy webProxy, Int32& responseTime)
+2022-05-28 10:42:49,528 [1] INFO  Log1 - MyAppExit Begin
+2022-05-28 10:42:49,700 [1] INFO  Log1 - MyAppExit End
+2022-05-28 10:45:01,370 [1] INFO  Log1 - v2rayN start up | v2rayN - V5.23 - 2022-05-06 | C:\Users\86158\Desktop\曹承睿编程\v2rayN-Core\v2rayN.exe
+2022-05-28 10:46:02,388 [4] INFO  Log1 - UpdateTaskRun
+2022-05-28 10:46:33,015 [1] INFO  Log1 - MyAppExit Begin
+2022-05-28 10:46:33,253 [1] INFO  Log1 - MyAppExit End
+2022-05-28 10:46:33,298 [1] INFO  Log1 - MyAppExit Begin
+2022-05-28 10:46:33,355 [1] INFO  Log1 - MyAppExit End
+2022-05-28 12:27:06,618 [1] INFO  Log1 - v2rayN start up | v2rayN - V5.23 - 2022-05-06 | C:\Users\86158\Desktop\曹承睿编程\v2rayN-Core\v2rayN.exe
+2022-05-28 12:28:08,457 [4] INFO  Log1 - UpdateTaskRun
+2022-05-28 17:44:37,316 [1] INFO  Log1 - MyAppExit Begin
+2022-05-28 17:44:37,736 [1] INFO  Log1 - MyAppExit End
